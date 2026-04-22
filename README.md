@@ -1,6 +1,27 @@
-# AI Text Assistant
+# 🚀 AI Text Assistant (Ollama Powered)
 
-This project is an AI-powered text assistant with a backend and a frontend.
+A **privacy-first AI Text Assistant** built using React and Node.js, powered by locally hosted LLMs via Ollama.  
+This application allows users to process text without relying on external AI APIs.
+
+---
+
+## ✨ Features
+
+- 📝 Text Summarization  
+- ✍️ Writing Improvement  
+- 🌍 Translation  
+- 💻 Code Explanation  
+- 🎯 Tone Conversion (Casual / Professional)  
+- ⚡ Fast responses using local LLM  
+- 🔒 Privacy-first (no external API calls)
+
+---
+
+## 🧠 How It Works
+
+```text
+User Input → Node.js Backend → Ollama (Local LLM) → Response → Frontend UI
+
 
 ## Project Structure
 
