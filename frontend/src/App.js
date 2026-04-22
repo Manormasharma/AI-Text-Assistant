@@ -70,7 +70,7 @@ function App() {
           AI Text Assistant
         </Typography>
       </Box>
-      <Box sx={{ height:'90vh', overflowY: "auto", p: 3, background: "#f9f9f9" }}>
+      <Box sx={{ height:'70vh', overflowY: "auto", p: 3, background: "#f9f9f9" }}>
         {messages.map((msg, idx) => (
           <Box key={idx} sx={{ display: "flex", mb: 2, flexDirection: msg.role === "user" ? "row-reverse" : "row", alignItems: "flex-end" }}>
             <Box sx={{ display: "flex", alignItems: "center", mx: 1 }}>
